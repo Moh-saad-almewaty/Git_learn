@@ -1,0 +1,252 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+/*start display*/
+.d-block {
+  display :block;
+}
+.d-grid{
+  display:grid ;
+}
+.d-flex {
+  display:flex ;
+}
+.flex-1{
+  flex:1; 
+} 
+.align-center {
+  align-items:center ;
+}
+.ju-center{
+  justify-content:center,  
+}
+.tex-ce {
+  text-align:center ;
+}
+.tex-r{
+  text-align:right;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+/*end display*/
+/* start component*/
+.fl-center {
+  display:flex ;
+  align-items:center ;
+}
+.fl-column-align {
+  display:flex ;
+  flex-direction:column ;
+  align-items:center ;
+}
+.fl-column {
+  display:flex ;
+  flex-direction:column ;
+}
+.fl-between{
+  display:flex ;
+  justify-content:space-between ;
+  align-items:center ;
+}
+.btn-shape {
+  border-radius :6px;
+  color : white;
+  background-color:var(--blue-color);
+  border:none; 
+  padding:5px 10px; 
+  box-shadow:5px 5px 5px #D1D3D5;
+}
+.btn-shape3 {
+  border-radius: 6px;
+  color: white;
+  background-color: var(--red-color);
+  border: none;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 5px #D1D3D5;
+}
+.btn-shape2 {
+  border-radius: 6px;
+  color:black;
+  background-color:#eee;
+  border: none;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 5px #D1D3D5;
+}
+/* end component*/
+/*start number*/
+.w-full{
+  width :100vw;
+}
+.w-100{
+  width :100%;
+}
+.h-200{
+  height :200px;
+}
+.w-fit{
+  width :fit-content;
+}
+.p-5{
+  padding :5px;
+}
+.p-10{
+  padding :10px;
+}
+.p-15{
+  padding :15px;
+}
+.p-20{
+  padding:20px;
+}
+.pr-10{
+  padding-right :10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pb-15{
+  padding-bottom: 15px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pb-15 {
+  padding-bottom :15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.m-5{
+  margin :5px;
+}
+.m-10{
+  margin :10px;
+}
+.mb-0{
+  margin-bottom:0; 
+}
+.mb-15{
+  margin-bottom :15px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-25{
+  margin-bottom:25px; 
+}
+.mb-50{
+  margin-bottom :50px;
+}
+.mt-0 {
+  margin-top:0px;
+}
+.mt-5{
+  margin-top :5px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-50 {
+  margin-top:50px;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10{
+  border-radius :10px;
+}
+.fs-14 {
+  font-size:14px;
+}
+.fs-20 {
+  font-size:20px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.fs-45 {
+  font-size: 45px;
+}
+/*end number*/
+/* start color*/
+.c-black {
+  color :black;
+}
+.c-gray {
+  color :var(--grey-color);
+}
+.c-blue {
+  color:var(--blue-color); 
+}
+.c-white {
+  color: white;
+}
+.c-green {
+  color :var(--green-color);
+}
+.c-red{
+  color :var(--red-color);
+}
+.bg-gray {
+  background-color: var(--grey-color);
+}
+.bg-white {
+  background-color:white;
+}
+.bg-green {
+  background-color:var(--green-color); 
+}
+.bg-blue {
+  background-color:#4555FF;
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-eee {
+  background-color:#eee;
+}
+/* end color*/
+/*start position*/
+.p-relative {
+  position:relative;
+}
+/*end position*/
+.box-sh{
+  box-shadow:5px 5px 10px #eee;
+}
+.cu-point{
+  cursor:pointer ;
+}
+.border{
+  border :1.5px solid #ccc;
+}
+.b-bottom{
+  border-bottom:1.5px solid #ccc;
+}
+.b-top {
+  border-top: 1.5px solid #ccc;
+}
+.bor-none {
+  border :none;
+}
+.ov-hi{
+  overflow:hidden ;
+}
+.li-he{
+  line-height:1.6;
+}
